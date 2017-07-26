@@ -1,0 +1,196 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+footer{
+	text-align: center;
+}
+
+div.boxBanner{
+
+	text-align: center;
+}
+.description{
+	padding-right: 0px;
+	font-size: 25px;
+}
+.findings{
+	padding-right: 0px;
+	font-size: 25px;
+}
+.bigNav{
+	padding-left: 100px;
+	
+}
+
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family:  "DK Lemon Yellow Sun",  sans-serif;
+	text-align: Right;
+	
+	color: black;
+
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*padding-right: 100px;*/
+	font-size: 25px;
+	
+}
+
+header{
+	background-color: aliceBlue;
+	color: black; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;*/
+	text-align: left;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: aliceBlue;
+	
+}
+
+nav a, nav h3{
+	float: center;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+	color: grey;
+	font-size: 25px;
+
+
+}
+
+nav a:hover{
+	
+	color:yellow;
+
+}
+h1 {
+	font-size: 30px;
+	padding-right: 100px;
+	text-align: center
+}
+h2{
+	font-family: "Adam"
+	font-size:15px;
+	padding-right: 100px;
+}
+p{
+	font-family: "Adam";
+}
+
+/*hover menu*/
+.container {
+    overflow: hidden;
+    background-color: aliceBlue;
+    font-family: "DK Lemon Yellow Sun";
+}
+
+.container a {
+    float: left;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 32px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "DK Lemon Yellow Sun";
+    float: center;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: lightGrey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: yellow;
+    font-family: "DK Lemon Yellow Sun";
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 0px; /* I add this to cells to add a little padding*/
+}
